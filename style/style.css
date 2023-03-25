@@ -6,6 +6,9 @@
 
 html {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
   background-color: #001d25;
   color: #fff;
 }
@@ -30,17 +33,22 @@ nav {
 .container {
   max-width: 800px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+/* HERO */
 
 .hero-content {
   display: flex;
-  justify-content: space-between;
   margin-bottom: 40px;
 }
 
 .hero-content div {
   display: flex;
   flex-direction: column;
+  padding: 20px;
   justify-content: center;
 }
 
@@ -56,6 +64,10 @@ nav {
     text-align: center;
     padding: 20px;
   }
+
+  .hero-content div {
+    padding: 0;
+  }
 }
 
 .logo {
@@ -64,9 +76,12 @@ nav {
   width: 200px;
 }
 
+/* APPS LIST */
+
 .apps-list {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .apps-list > h3 {
@@ -76,7 +91,6 @@ nav {
 
 .app-item {
   display: flex;
-  justify-content: space-between;
 }
 
 @media screen and (max-width: 800px) {
@@ -90,17 +104,6 @@ nav {
   }
 }
 
-@media screen and (max-width: 600px) {
-  .app-item {
-    padding: 20px;
-    text-align: center;
-  }
-
-  .app-icon {
-    margin-bottom: 10px;
-  }
-}
-
 .app-icon {
   height: 100px;
   width: 100px;
@@ -111,7 +114,25 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 20px;
 }
+
+@media screen and (max-width: 600px) {
+  .app-item {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .app-item div {
+    padding: 0;
+  }
+
+  .app-icon {
+    margin-bottom: 10px;
+  }
+}
+
+/* FOOTER */
 
 footer {
   text-align: center;
