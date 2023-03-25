@@ -143,6 +143,12 @@ footer p {
   padding: 10px;
 }
 
-footer .twitter-icon {
+footer #twitter-icon,
+#github-icon {
   fill: #fff;
+}
+
+footer a {
+  display: inline-flex;
+  margin: 0 2px;
 }
