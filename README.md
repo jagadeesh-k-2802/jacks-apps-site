@@ -1,4 +1,4 @@
-# Jack's - Apps Site
+# Jack's - Apps Site 🌐
 
 - Website made for Google Play Store listing
 - Visit at https://jacks-apps.vercel.app/
