@@ -5,4 +5,4 @@
 
 ## Screenshot 📸
 
-![Screenshot](https://github.com/jagadeesh-k-2802/jacks-apps-site/assets/63912668/85f0ca0d-34cf-4a31-ad6c-599df91a1eb3)
+![Screenshot](https://github.com/user-attachments/assets/ad36b591-94d0-45bd-98ec-b76f6a3818d6)
