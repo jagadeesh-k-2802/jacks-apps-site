@@ -5,4 +5,4 @@
 
 ## Screenshot 📸
 
-![Screenshot](https://github.com/user-attachments/assets/dcb406e8-7d69-4cc6-a621-51ae82a37ab2)
+![Screenshot](https://github.com/user-attachments/assets/b1b8c579-2478-445c-8e90-541d29445220)
